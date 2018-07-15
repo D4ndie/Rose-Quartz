@@ -14,7 +14,7 @@ body {
     margin:auto;
     width: 1000px;
 
-    margin-top: 5%;
+    margin-top: 10%;
     font-family: 'No Added Sugar';
 }
 
@@ -32,8 +32,7 @@ body {
     margin: auto;
     margin-top: 15px;
 
-    border-top: 2px solid #F2DADF;
-    border-radius: 10px;
+    border-radius: 5px;
     background: #F2DADF
 }
 
@@ -61,10 +60,9 @@ names {
 #searchField {
     width: 500px;
     border: #F2DADF;
-
     text-align: center;
     font-family: 'No Added Sugar';
-    font-size: 20px;
+    font-size: 25px;
     background: #F2DADF;
     color: #C9939E;
 }
@@ -80,6 +78,7 @@ names {
     padding: 9px;
     font-size: 8px;
     border: none;
+    width: 30px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -95,8 +94,8 @@ names {
     background-color: #F2DADF;
     z-index: 0;
     left: 50%;
-    margin-left: -90px;
-    width: 180px;
+    margin-left: -75px;
+    width: 150px;
     border-radius: 5px
 }
 
@@ -112,6 +111,7 @@ names {
 .dropdown-content a:hover {
     background-color: #EDCAD1;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 /* Show the dropdown menu on hover */
@@ -121,4 +121,5 @@ names {
 .dropdown:hover .dropbtn {
     background-color: #EDCAD1;
     border-radius: 5px;
+    width: 60px;
 } 
